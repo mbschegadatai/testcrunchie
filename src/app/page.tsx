@@ -6,11 +6,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Crunchie - AI DeFi Agent",
     description: "Collect points, scan yields, and climb the leaderboard.",
-    url: "https://your-vercel-domain.vercel.app",
+    url: "https://testcrunchie.vercel.app",
     siteName: "Crunchie",
     images: [
       {
-        url: "https://your-vercel-domain.vercel.app/crunchie-banner.png",
+        url: "https://testcrunchie.vercel.app/crunchie-banner.png",
         width: 1200,
         height: 630,
         alt: "Crunchie Banner",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Crunchie - AI DeFi Agent",
     description: "Collect points, scan yields, and climb the leaderboard.",
-    images: ["https://your-vercel-domain.vercel.app/crunchie-banner.png"],
+    images: ["testcrunchie.vercel.app/crunchie-banner.png"],
     creator: "@DataiNetwork",
   },
 };
