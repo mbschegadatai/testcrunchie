@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: "Crunchie - AI DeFi Agent",
     description:
       "CRUNCHIE is your sidekick for all things on-chain insights. Collect points, scan yields & climb the leaderboard.",
-    images: ["https://testcrunchie.vercel.app/crunchie-banner.png?v=6"],
+    images: ["https://testcrunchie.vercel.app/crunchie-banner.png?v=6"], // ✅ must be strings
     creator: "@DataiNetwork",
   },
 };
