@@ -1,16 +1,18 @@
 import type { Metadata } from "next";
 
+const baseUrl = "https://testcrunchie.vercel.app";
+
 export const metadata: Metadata = {
   title: "Crunchie Share Test",
   description: "Testing Crunchie tweet with image",
   openGraph: {
     title: "Crunchie - AI DeFi Agent",
     description: "Collect points, scan yields, and climb the leaderboard.",
-    url: "https://testcrunchie.vercel.app",
+    url: baseUrl,
     siteName: "Crunchie",
     images: [
       {
-        url: "https://testcrunchie.vercel.app/crunchie-banner.png",
+        url: `${baseUrl}/crunchie-banner.png`,
         width: 1200,
         height: 630,
         alt: "Crunchie Banner",
@@ -23,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Crunchie - AI DeFi Agent",
     description: "Collect points, scan yields, and climb the leaderboard.",
-    images: ["https://testcrunchie.vercel.app/crunchie-banner.png"], // ✅ fixed
+    images: [`${baseUrl}/crunchie-banner.png`],
     creator: "@DataiNetwork",
   },
 };
