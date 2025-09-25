@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Crunchie - AI DeFi Agent",
     description: "Collect points, scan yields, and climb the leaderboard.",
-    images: ["testcrunchie.vercel.app/crunchie-banner.png"],
+    images: ["https://testcrunchie.vercel.app/crunchie-banner.png"], // ✅ fixed
     creator: "@DataiNetwork",
   },
 };
